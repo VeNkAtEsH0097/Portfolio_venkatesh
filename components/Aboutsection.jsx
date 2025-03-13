@@ -1,6 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import { BorderBeam } from "./magicui/border-beam";
+import Link from "next/link";
 
 export default function AboutSection() {
   return (
@@ -32,9 +33,11 @@ export default function AboutSection() {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1.4 }}
           >
+            <a href="/venkatesh.pdf" download="Venkatesh_resume.pdf">
             <button className="bg-emerald-500 text-white px-6 py-3 rounded-lg font-semibold hover:bg-emerald-600 transition">
               Download CV
             </button>
+            </a>
           </motion.div>
           
       </motion.div>
