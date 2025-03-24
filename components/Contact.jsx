@@ -9,9 +9,9 @@ function ContactMe() {
     // Icons expanding to the left
     const leftIcons = [
         { x: -70, icon: <FaInstagram className="text-pink-500" />, label: 'Instagram', link: 'https://www.instagram.com/yourprofile' },
-        { x: -140, icon: <FaLinkedin className="text-blue-600" />, label: 'LinkedIn', link: 'https://www.linkedin.com/in/yourprofile' },
-        { x: -210, icon: <FaEnvelope className="text-red-500" />, label: 'Email', link: 'mailto:youremail@example.com' },
-        { x: -280, icon: <FaWhatsapp className="text-green-500" />, label: 'WhatsApp', link: 'https://wa.me/yourphonenumber' },
+        { x: -140, icon: <FaLinkedin className="text-blue-600" />, label: 'LinkedIn', link: 'https://www.linkedin.com/in/venkatesh-n-59624b357/' },
+        { x: -210, icon: <FaEnvelope className="text-red-500" />, label: 'Email', link: 'mailto:venkiin911@gmail.com' },
+        { x: -280, icon: <FaWhatsapp className="text-green-500" />, label: 'WhatsApp', link: 'https://wa.me/9353630170' },
     ];
 
     // Icons expanding to the right

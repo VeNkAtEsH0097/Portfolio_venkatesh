@@ -44,9 +44,9 @@ const Navbar = () => {
       <div className=" md:hidden  absolute top-[62px] left-0 w-full bg-[#1E2A38] transition-all ease-in-out z-10">
 
 
-        <div className="relative flex h-full items-center justify-center p-4 cursor-pointer font-bold text-[#f0f0f0] hover:text-zinc-200 hover:bg-white/10 transition-colors ease-in-out">
+        {/* <div className="relative flex h-full items-center justify-center p-4 cursor-pointer font-bold text-[#f0f0f0] hover:text-zinc-200 hover:bg-white/10 transition-colors ease-in-out">
           <span>Contact</span>
-        </div>
+        </div> */}
         <Link href="/resume">
         <div className="relative flex h-full items-center justify-center p-4 cursor-pointer font-bold text-[#f0f0f0] hover:text-zinc-200 hover:bg-white/10 transition-colors ease-in-out">
           <span>Resume</span>
@@ -61,11 +61,11 @@ const Navbar = () => {
                 <span>Skill</span>
               </div>
             </Link>
-            <Link href="/resume">
+            {/* <Link href="/resume">
               <div className="p-4 hover:bg-white/5 hover:text-zinc-200 text-[#f0f0f0] transition-colors ease-in-out cursor-pointer">
                 <span>Projects</span>
               </div>
-            </Link>
+            </Link> */}
           </div>
         </div>
 
@@ -87,14 +87,14 @@ const Navbar = () => {
               <span>Skill</span>
             </div>
           </Link>
-          <div className="p-4   font-bold hover:bg-white/5 hover:text-teal-100 text-[#f0f0f0] transition-colors ease-in-out cursor-pointer">
+          {/* <div className="p-4   font-bold hover:bg-white/5 hover:text-teal-100 text-[#f0f0f0] transition-colors ease-in-out cursor-pointer">
             <span>Projects</span>
-          </div>
+          </div> */}
         </div>
       </div>
-      <div className="relative flex h-full items-center p-4 cursor-pointer font-bold text-[#f0f0f0] hover:text-teal-100 hover:bg-white/10 transition-colors ease-in-out">
+      {/* <div className="relative flex h-full items-center p-4 cursor-pointer font-bold text-[#f0f0f0] hover:text-teal-100 hover:bg-white/10 transition-colors ease-in-out">
         <span>Contact</span>
-      </div>
+      </div> */}
       <Link href="/resume">
         <div
           className={`relative flex h-full items-center p-4 cursor-pointer font-bold text-[#f0f0f0] 

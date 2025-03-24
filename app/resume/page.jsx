@@ -36,13 +36,13 @@ const Resume = () => {
                         </div>
 
                         <div className="mt-6">
-                            <h3 className="text-lg font-semibold">Higher Secondary</h3>
+                            <h3 className="text-lg font-semibold text-gray-300">Higher Secondary</h3>
                             <p className="text-gray-300">Narayana College</p>
                             <p className="text-sm text-gray-100">05/2017 - 05/2019 • CBSE</p>
                         </div>
 
                         <div className="mt-6">
-                            <h3 className="text-lg font-semibold">Secondary School</h3>
+                            <h3 className="text-lg font-semibold text-gray-300">Secondary School</h3>
                             <p className="text-gray-300">Narayana e Techno School</p>
                             <p className="text-sm text-gray-100">05/2016 - 05/2017 • CGPA: 9.40</p>
                         </div>
