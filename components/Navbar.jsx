@@ -53,20 +53,22 @@ const Navbar = () => {
         </div>
         </Link>
         <div className=" group relative h-full flex flex-col items-center p-4 justify-center cursor-pointer  text-[#f0f0f0] hover:text-zinc-200 hover:bg-white/10 transition-colors ease-in-out">
+        <Link href="/skills">
           <div className=" font-bold  ">About</div>
+          </Link>
           {/* Submenu */}
-          <div className=" group-hover:block hidden justify-center  mt-2 w-full bg-[#1E2A38]  rounded-b-md text-center">
+          {/* <div className=" group-hover:block hidden justify-center  mt-2 w-full bg-[#1E2A38]  rounded-b-md text-center">
             <Link href="/skills">
               <div className="p-4 hover:bg-white/5 transition-colors ease-in-out cursor-pointer">
                 <span>Skill</span>
               </div>
-            </Link>
+            </Link> */}
             {/* <Link href="/resume">
               <div className="p-4 hover:bg-white/5 hover:text-zinc-200 text-[#f0f0f0] transition-colors ease-in-out cursor-pointer">
                 <span>Projects</span>
               </div>
             </Link> */}
-          </div>
+          {/* </div> */}
         </div>
 
       </div>
